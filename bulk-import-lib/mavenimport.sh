@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # maven bulk import 
-# 사용법_repository에 해당 파일 복사 후 실행. ./mavenimport.sh -r -r http://localhost:5001/repository/maven-hosted -u admin -p admin123
+# 사용법_repository에 해당 파일 복사 후 실행. ./mavenimport.sh -u admin -p admin123 -r http://localhost:5001/repository/maven-hosted 
 # Get command line params
 while getopts ":r:u:p:" opt; do
 	case $opt in
